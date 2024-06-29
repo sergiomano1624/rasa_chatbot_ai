@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+- story: greet path
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: about me path
+  steps:
+    - intent: about_me
+    - action: utter_about_me
+
+- story: skills path
+  steps:
+    - intent: skills
+    - action: utter_skills
+
+- story: projects path
+  steps:
+    - intent: projects
+    - action: utter_projects
+
+- story: education path
+  steps:
+    - intent: education
+    - action: utter_education
+
+- story: contact path
+  steps:
+    - intent: contact
+    - action: utter_contact

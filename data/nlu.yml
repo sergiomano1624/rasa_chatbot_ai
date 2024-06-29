@@ -1,0 +1,37 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+
+- intent: about_me
+  examples: |
+    - tell me about yourself
+    - who are you?
+    - about Manoj
+
+- intent: skills
+  examples: |
+    - what are your skills?
+    - tell me about your skills
+    - what programming languages do you know?
+
+- intent: projects
+  examples: |
+    - tell me about your projects
+    - what projects have you worked on?
+
+- intent: education
+  examples: |
+    - what is your educational background?
+    - tell me about your education
+
+- intent: contact
+  examples: |
+    - how can I contact you?
+    - what is your contact information?

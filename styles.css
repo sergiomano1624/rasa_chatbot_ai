@@ -1,0 +1,49 @@
+/* Optional styles to customize chat widget appearance */
+.chatbot-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.chatbot-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbot-body {
+    padding: 10px;
+    max-height: 400px; /* Limit chat height if needed */
+    overflow-y: auto;
+}
+
+.chat-container {
+    margin-bottom: 10px;
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.close {
+    color: #fff;
+    border: none;
+    background: none;
+}
+
+.closed {
+    transform: translateY(100%);
+}

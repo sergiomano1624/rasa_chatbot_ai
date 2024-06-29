@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - about_me
+  - skills
+  - projects
+  - education
+  - contact
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm Manoj personal chatbot. How can I help you today?"
+
+  utter_about_me:
+    - text: "Manoj is a software engineer with expertise in AI and web development. [Add more details]."
+
+  utter_skills:
+    - text: "Manoj is skilled in Java, Python, React, and more."
+
+  utter_projects:
+    - text: "Manoj has worked on several projects including [Project 1], [Project 2]. [Provide brief descriptions]."
+
+  utter_education:
+    - text: "Manoj holds a degree in [Your Degree] from [Your University]. [Add more details]."
+
+  utter_contact:
+    - text: "You can reach Manoj at [Your Email] or connect on LinkedIn at [LinkedIn URL]."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
