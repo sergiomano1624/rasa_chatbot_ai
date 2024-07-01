@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: my-rasa-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: rasa run -m models --enable-api --cors "*"
+    pythonVersion: 3.8.0
