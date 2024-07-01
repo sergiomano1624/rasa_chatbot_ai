@@ -5,4 +5,4 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: rasa run -m models --enable-api --cors "*"
-    pythonVersion: 3.8
+    pythonVersion: 3.8.0
